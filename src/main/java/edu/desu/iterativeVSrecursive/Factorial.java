@@ -12,6 +12,11 @@ public class Factorial {
 
     // Todo : Complete Function
     public static int factorialRecursive(int n) {
-        return 0;
+        if (n == 1) {
+            return 1;
+        }
+        else {
+            return (n * factorialRecursive(n - 1));
+        }
     }
 }
